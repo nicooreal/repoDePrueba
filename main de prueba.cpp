@@ -11,12 +11,12 @@ using namespace std;
 
 int main()
 {
-    cout << "ingresar 10 numeros" << endl;
+    cout << "ingresar 5 numeros" << endl;
    int i, n, maximoNegativos, minimoPositivos, flag, bandera;
    bandera = 1;
    flag = 1;
 
-   for (i=0 ; i < 10 ; i++) {
+   for (i=0 ; i < 5 ; i++) {
     cin >> n;
 
 if (bandera = 1 && n<=0 ) {maximoNegativos = n; bandera = 0;}
